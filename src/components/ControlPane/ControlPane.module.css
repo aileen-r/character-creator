@@ -9,9 +9,14 @@
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
-  margin-bottom: 32px;
-  width: 100%;
+  /* AR - Josh had margin-right 4px. Everything here below by me for mobile styles */
   margin-right: 16px;
+  margin-bottom: 32px;
+  width: 90%;
+}
+
+.controlPane:last-of-type {
+  margin-right: 0;
 }
 
 .title {

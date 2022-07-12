@@ -1,9 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-}
-
-.maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -25,7 +23,14 @@
 
 .controlColumn {
   display: flex;
-  position: sticky;
+  margin-left: -32px;
+  margin-right: -32px;
+  overflow-x: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
@@ -35,6 +40,7 @@
 
   .controlColumn {
     display: block;
+    margin: 0;
     width: 50%;
   }
 
